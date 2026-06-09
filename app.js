@@ -268,11 +268,6 @@ searchInput.addEventListener("input", () => {
 document.querySelector("#contactButton").addEventListener("click", contactSeller);
 document.querySelector("#contactButtonBottom").addEventListener("click", contactSeller);
 
-document.querySelector("#manageButton").addEventListener("click", () => {
-  renderManager();
-  manageDialog.showModal();
-});
-
 document.querySelector("#exportButton").addEventListener("click", exportItems);
 
 document.querySelector("#resetButton").addEventListener("click", () => {
