@@ -16,7 +16,7 @@ window.ITEMS = [
     "id": "5882",
     "name": "金属多层鞋架",
     "price": "10刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/img_5882.webp"
   },
   {
@@ -142,7 +142,7 @@ window.ITEMS = [
     "id": "5902",
     "name": "Xbox 无线手柄两个",
     "price": "30刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/img_5902.webp"
   },
   {
