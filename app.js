@@ -136,7 +136,7 @@ async function copyText(text, successMessage) {
 
 function contactSeller() {
   const wechat = shopData.config.wechat.trim();
-  if (!wechat || wechat === defaultConfig.wechat) {
+  if (!wechat || wechat === "请填写微信号") {
     showToast("请先在“管理物品”中填写微信号");
     return;
   }
