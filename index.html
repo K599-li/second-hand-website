@@ -118,7 +118,7 @@
         </div>
         <div class="manage-list" id="manageList"></div>
         <div class="manage-actions">
-          <button class="button button-primary" type="submit">保存到本机</button>
+          <button class="button button-primary" type="submit">保存本机预览</button>
           <button class="button button-outline" id="exportButton" type="button">
             导出 items.js
           </button>
@@ -129,7 +129,10 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="./items.js?v=5"></script>
-    <script src="./app.js?v=5"></script>
+    <script>
+      const assetVersion = Date.now();
+      document.write(`<script src="./items.js?v=${assetVersion}"><\/script>`);
+      document.write(`<script src="./app.js?v=${assetVersion}"><\/script>`);
+    </script>
   </body>
 </html>

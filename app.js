@@ -7,12 +7,20 @@ const STATUS = {
 const STORAGE_KEY = "secondhand-shop-data-v5";
 const defaultItems = structuredClone(window.ITEMS);
 const defaultConfig = structuredClone(window.SITE_CONFIG);
+const isManageMode = new URLSearchParams(window.location.search).has("manage");
 
 let currentFilter = "all";
 let currentSearch = "";
 let toastTimer;
 
 function loadData() {
+  if (!isManageMode) {
+    return {
+      items: structuredClone(defaultItems),
+      config: structuredClone(defaultConfig),
+    };
+  }
+
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
     if (saved?.items?.length) {
@@ -303,7 +311,7 @@ document.querySelectorAll("dialog").forEach((dialog) => {
 
 render();
 
-if (new URLSearchParams(window.location.search).has("manage")) {
+if (isManageMode) {
   renderManager();
   manageDialog.showModal();
 }
