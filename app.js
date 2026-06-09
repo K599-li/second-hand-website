@@ -4,7 +4,7 @@ const STATUS = {
   sold: { label: "已售", hint: "已经卖出" },
 };
 
-const STORAGE_KEY = "secondhand-shop-data-v4";
+const STORAGE_KEY = "secondhand-shop-data-v5";
 const defaultItems = structuredClone(window.ITEMS);
 const defaultConfig = structuredClone(window.SITE_CONFIG);
 
@@ -18,7 +18,7 @@ function loadData() {
     if (saved?.items?.length) {
       return {
         items: saved.items,
-        config: { ...defaultConfig, ...saved.config },
+        config: { ...saved.config, ...defaultConfig },
       };
     }
   } catch (error) {
