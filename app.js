@@ -4,7 +4,7 @@ const STATUS = {
   sold: { label: "已售", hint: "已经卖出" },
 };
 
-const STORAGE_KEY = "secondhand-shop-data-v3";
+const STORAGE_KEY = "secondhand-shop-data-v4";
 const defaultItems = structuredClone(window.ITEMS);
 const defaultConfig = structuredClone(window.SITE_CONFIG);
 
@@ -302,3 +302,8 @@ document.querySelectorAll("dialog").forEach((dialog) => {
 });
 
 render();
+
+if (new URLSearchParams(window.location.search).has("manage")) {
+  renderManager();
+  manageDialog.showModal();
+}

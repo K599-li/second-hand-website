@@ -1,6 +1,6 @@
 window.SITE_CONFIG = {
   "title": "我的闲置小铺",
-  "wechat": "Sunshinepuppy",
+  "wechat": "Sunshinepuppy599",
   "area": "3700 clinton parkway 1504"
 };
 
