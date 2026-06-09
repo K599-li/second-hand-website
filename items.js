@@ -30,7 +30,7 @@ window.ITEMS = [
     "id": "5885",
     "name": "电子体重秤",
     "price": "5刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/img_5885.webp"
   },
   {
