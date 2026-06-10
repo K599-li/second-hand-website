@@ -23,7 +23,7 @@ window.ITEMS = [
     "id": "5884",
     "name": "粘毛器",
     "price": "5刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/img_5884.webp"
   },
   {
@@ -235,5 +235,12 @@ window.ITEMS = [
     "price": "5刀",
     "status": "available",
     "image": "./assets/items/new_mini_iron.webp"
+  },
+  {
+    "id": "new-dji-phone-gimbal",
+    "name": "大疆手机云台稳定器",
+    "price": "50刀",
+    "status": "available",
+    "image": "./assets/items/new_dji_phone_gimbal.webp"
   }
 ];
