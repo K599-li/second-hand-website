@@ -254,14 +254,14 @@ window.ITEMS = [
     "id": "new-white-four-drawer-dresser",
     "name": "白色四斗柜",
     "price": "30刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/new_white_four_drawer_dresser.webp"
   },
   {
     "id": "new-white-bookshelf",
     "name": "白色五层书架",
     "price": "40刀",
-    "status": "available",
+    "status": "reserved",
     "image": "./assets/items/new_white_bookshelf.webp"
   }
 ];
