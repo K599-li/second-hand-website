@@ -200,5 +200,40 @@ window.ITEMS = [
     "price": "10刀",
     "status": "available",
     "image": "./assets/items/new_shelf_floor_lamp.webp"
+  },
+  {
+    "id": "new-febreze-freshener",
+    "name": "Febreze 插电香薰器",
+    "price": "5刀",
+    "status": "available",
+    "image": "./assets/items/new_febreze_freshener.webp"
+  },
+  {
+    "id": "new-acrylic-file-holder",
+    "name": "亚克力文件收纳架",
+    "price": "5刀",
+    "status": "available",
+    "image": "./assets/items/new_acrylic_file_holder.webp"
+  },
+  {
+    "id": "new-party-card-game",
+    "name": "聚会卡牌游戏",
+    "price": "5刀",
+    "status": "available",
+    "image": "./assets/items/new_party_card_game.webp"
+  },
+  {
+    "id": "new-bamboo-steamer",
+    "name": "竹制小蒸笼",
+    "price": "5刀",
+    "status": "available",
+    "image": "./assets/items/new_bamboo_steamer.webp"
+  },
+  {
+    "id": "new-mini-iron",
+    "name": "迷你电熨斗",
+    "price": "5刀",
+    "status": "available",
+    "image": "./assets/items/new_mini_iron.webp"
   }
 ];
