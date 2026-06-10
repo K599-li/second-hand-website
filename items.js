@@ -16,7 +16,7 @@ window.ITEMS = [
     "id": "5882",
     "name": "金属多层鞋架",
     "price": "10刀",
-    "status": "reserved",
+    "status": "sold",
     "image": "./assets/items/img_5882.webp"
   },
   {
@@ -142,7 +142,7 @@ window.ITEMS = [
     "id": "5902",
     "name": "Xbox 无线手柄两个",
     "price": "30刀",
-    "status": "reserved",
+    "status": "sold",
     "image": "./assets/items/img_5902.webp"
   },
   {
@@ -191,7 +191,7 @@ window.ITEMS = [
     "id": "new-three-tier-shelf",
     "name": "木质三层置物架",
     "price": "15刀",
-    "status": "available",
+    "status": "sold",
     "image": "./assets/items/new_three_tier_shelf.webp"
   },
   {
@@ -242,5 +242,26 @@ window.ITEMS = [
     "price": "50刀",
     "status": "available",
     "image": "./assets/items/new_dji_phone_gimbal.webp"
+  },
+  {
+    "id": "new-ddr4-ram-pair",
+    "name": "HyperX Fury DDR4 内存条两根",
+    "price": "40刀",
+    "status": "available",
+    "image": "./assets/items/new_ddr4_ram_pair.webp"
+  },
+  {
+    "id": "new-white-four-drawer-dresser",
+    "name": "白色四斗柜",
+    "price": "30刀",
+    "status": "available",
+    "image": "./assets/items/new_white_four_drawer_dresser.webp"
+  },
+  {
+    "id": "new-white-bookshelf",
+    "name": "白色五层书架",
+    "price": "40刀",
+    "status": "available",
+    "image": "./assets/items/new_white_bookshelf.webp"
   }
 ];
